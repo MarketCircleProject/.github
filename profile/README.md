@@ -39,3 +39,11 @@ you can run this command by specifying the platform
 ```bash
 docker run --platform linux/amd64 -d --name marketcircleapi-container -p 8080:80 ghcr.io/marketcircleproject/marketcircleapi:main
 ```
+
+
+### 4. **Remove the Local Image**
+
+You can delete the local image using the  image name & tag
+```bash
+docker rmi ghcr.io/marketcircleproject/marketcircleapi:main
+```
