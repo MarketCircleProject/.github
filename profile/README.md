@@ -41,7 +41,7 @@ docker run --platform linux/amd64 -d --name marketcircleapi-container -p 8080:80
 ```
 
 ### 4. **Composer Install**
-After running the docer image, you open the docker app, click on the container and select the 'Exec' tab, then type the command below and press enter
+After running the docer image, you open the docker app, click on the container and select the 'Exec' tab, then type the command below and press enter, once it's done running restart the docker container
 ```bash
 composer install
 ```
