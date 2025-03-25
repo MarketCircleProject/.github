@@ -46,7 +46,13 @@ After running the docer image, you open the docker app, click on the container a
 composer install
 ```
 
-### **Remove the Local Image**
+### 5. **Access API**
+You should be able to access the api Using the base url below
+```bash
+http://localhost:8080
+```
+
+## **Remove the Local Image**
 
 You can delete the local image using the  image name & tag
 ```bash
