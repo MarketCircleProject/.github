@@ -35,4 +35,7 @@ If you're encountering the following error due to a platform mismatch:
 The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)
 ```
 
-Please let me know so i can rebuild the docker image using your host platform
+you can run this command by specifying the platform
+```bash
+docker run --platform linux/amd64 -d --name marketcircleapi-container -p 8080:80 ghcr.io/marketcircleproject/marketcircleapi:main
+```
