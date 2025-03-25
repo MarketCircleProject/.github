@@ -40,8 +40,13 @@ you can run this command by specifying the platform
 docker run --platform linux/amd64 -d --name marketcircleapi-container -p 8080:80 ghcr.io/marketcircleproject/marketcircleapi:main
 ```
 
+### 4. **Composer Install**
+After running the docer image, you open the docker app, click on the container and select the 'Exec' tab, then type the command below and press enter
+```bash
+composer install
+```
 
-### 4. **Remove the Local Image**
+### **Remove the Local Image**
 
 You can delete the local image using the  image name & tag
 ```bash
